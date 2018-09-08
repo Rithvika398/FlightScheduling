@@ -1,0 +1,265 @@
+
+C:\Users\Anonymous\Desktop\planeScheduling\src>java Main
+********** This program schedules all the flight available **************
+
+
+1.Schedule flight
+2.View flight available
+3.Exit
+Enter your choice:
+2
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Flight ID |     Flight Name |   Flight Time |   No.Of Passengers |      Tank Capacity |         Permitted delay  | Flight Type |
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+1               Damnik  16:45           156             0               34              0
+2               Rithvika        16:40           190             0               4               1
+3               Kaustubh        16:39           123             0               12              0
+4               Ronaldo 15:59           1567            0               4               1
+5               JetAirWay       15:59           144             0               1               0
+6               SpiceJet        16:35           1156            0               5               1
+7               JetAir  16:55           1567            0               9               0
+8               Kingfisher      16:59           123             0               9               0
+9               Cool    16:54           90              0               6               1
+10              JEtKing 16:49           134             0               12              0
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+1.Schedule flight
+2.View flight available
+3.Exit
+Enter your choice:
+1
+------------------------------------------------------
+Order of Scheduling:
+Flight ID       Flight Name     Priority
+8               Kingfisher      10
+9               Cool    9
+7               JetAir  8
+10              JEtKing 7
+1               Damnik  6
+2               Rithvika        5
+3               Kaustubh        4
+4               Ronaldo 3
+5               JetAirWay       2
+6               SpiceJet        1
+------------------------------------------------------
+[+] Scheduling the flight with:
+Plane [priority=1,
+ time=16:35,
+ type=1,
+ capacity=0,
+ id=6,
+ name=SpiceJet,
+ operationTime=4]
+[+] It will take 4sec
+    Plane has taken off
+
+
+
+------------------------------------------------------
+Order of Scheduling:
+Flight ID       Flight Name     Priority
+8               Kingfisher      9
+7               JetAir  8
+10              JEtKing 7
+1               Damnik  6
+2               Rithvika        5
+3               Kaustubh        4
+9               Cool    3
+4               Ronaldo 2
+5               JetAirWay       1
+------------------------------------------------------
+[+] Scheduling the flight with:
+Plane [priority=1,
+ time=15:59,
+ type=0,
+ capacity=0,
+ id=5,
+ name=JetAirWay,
+ operationTime=12]
+[+] It will take 12sec
+    Plane has landed
+
+
+
+------------------------------------------------------
+Order of Scheduling:
+Flight ID       Flight Name     Priority
+8               Kingfisher      8
+7               JetAir  7
+10              JEtKing 6
+1               Damnik  5
+2               Rithvika        4
+3               Kaustubh        3
+9               Cool    2
+4               Ronaldo 1
+------------------------------------------------------
+[+] Scheduling the flight with:
+Plane [priority=1,
+ time=15:59,
+ type=1,
+ capacity=0,
+ id=4,
+ name=Ronaldo,
+ operationTime=5]
+[+] It will take 5sec
+    Plane has taken off
+
+
+
+------------------------------------------------------
+Order of Scheduling:
+Flight ID       Flight Name     Priority
+8               Kingfisher      7
+7               JetAir  6
+10              JEtKing 5
+1               Damnik  4
+2               Rithvika        3
+3               Kaustubh        2
+9               Cool    1
+------------------------------------------------------
+[+] Scheduling the flight with:
+Plane [priority=1,
+ time=16:54,
+ type=1,
+ capacity=0,
+ id=9,
+ name=Cool,
+ operationTime=6]
+[+] It will take 6sec
+    Plane has taken off
+
+
+
+------------------------------------------------------
+Order of Scheduling:
+Flight ID       Flight Name     Priority
+8               Kingfisher      6
+7               JetAir  5
+10              JEtKing 4
+1               Damnik  3
+2               Rithvika        2
+3               Kaustubh        1
+------------------------------------------------------
+[+] Scheduling the flight with:
+Plane [priority=1,
+ time=16:39,
+ type=0,
+ capacity=0,
+ id=3,
+ name=Kaustubh,
+ operationTime=4]
+[+] It will take 4sec
+    Plane has landed
+
+
+
+------------------------------------------------------
+Order of Scheduling:
+Flight ID       Flight Name     Priority
+8               Kingfisher      5
+7               JetAir  4
+10              JEtKing 3
+1               Damnik  2
+2               Rithvika        1
+------------------------------------------------------
+[+] Scheduling the flight with:
+Plane [priority=1,
+ time=16:40,
+ type=1,
+ capacity=0,
+ id=2,
+ name=Rithvika,
+ operationTime=3]
+[+] It will take 3sec
+    Plane has taken off
+
+
+
+------------------------------------------------------
+Order of Scheduling:
+Flight ID       Flight Name     Priority
+8               Kingfisher      4
+7               JetAir  3
+10              JEtKing 2
+1               Damnik  1
+------------------------------------------------------
+[+] Scheduling the flight with:
+Plane [priority=1,
+ time=16:45,
+ type=0,
+ capacity=0,
+ id=1,
+ name=Damnik,
+ operationTime=13]
+[+] It will take 13sec
+    Plane has landed
+
+
+
+------------------------------------------------------
+Order of Scheduling:
+Flight ID       Flight Name     Priority
+8               Kingfisher      3
+7               JetAir  2
+10              JEtKing 1
+------------------------------------------------------
+[+] Scheduling the flight with:
+Plane [priority=1,
+ time=16:49,
+ type=0,
+ capacity=0,
+ id=10,
+ name=JEtKing,
+ operationTime=34]
+[+] It will take 34sec
+    Plane has landed
+
+
+
+------------------------------------------------------
+Order of Scheduling:
+Flight ID       Flight Name     Priority
+8               Kingfisher      2
+7               JetAir  1
+------------------------------------------------------
+[+] Scheduling the flight with:
+Plane [priority=1,
+ time=16:55,
+ type=0,
+ capacity=0,
+ id=7,
+ name=JetAir,
+ operationTime=7]
+[+] It will take 7sec
+    Plane has landed
+
+
+
+------------------------------------------------------
+Order of Scheduling:
+Flight ID       Flight Name     Priority
+8               Kingfisher      1
+------------------------------------------------------
+[+] Scheduling the flight with:
+Plane [priority=1,
+ time=16:59,
+ type=0,
+ capacity=0,
+ id=8,
+ name=Kingfisher,
+ operationTime=5]
+[+] It will take 5sec
+    Plane has landed
+
+
+
+
+1.Schedule flight
+2.View flight available
+3.Exit
+Enter your choice:
+3
+
+C:\Users\Anonymous\Desktop\planeScheduling\src>
